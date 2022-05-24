@@ -66,7 +66,7 @@ pbaspect([1 0.5 1])
 
 ## systemED.m
 Lotka–Volterra equation:  
-Simple differential equation system defining a prey-predator system where each `(x, y)` point corresponds to a state, `x` representing the amount of preys and `y` the amount of predators (arbitrary unit)
+Simple differential equation system defining a prey-predator system where each `(x, y)` point corresponds to a state, `x` representing the amount of preys and `y` the amount of predators (arbitrary units)
 > equadiff.m solves this system using ode45 for multiple initial states
 
 ```matlab
