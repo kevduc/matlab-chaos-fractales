@@ -59,6 +59,7 @@ Use 85deg to get lung-like fractal structure
 
 ```matlab
 Poumons([0; 0], [1; 0], deg2rad(85), 10)
+pbaspect([1 0.5 1])
 ```
 
 <img src="https://user-images.githubusercontent.com/64347790/170138989-5032c0a7-a007-4e79-8aa8-109a71790021.png" alt="Poumons" width="300px"/>
